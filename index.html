@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>ChangeColors</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper teal accent-4">
+        <a href="#" class="brand-logo center">#BootCamp 1°-Trabalho</a>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col s8">
+        <div id="divInputs">
+          <div id="divTitle"><h2>Escolhe sua cor:</h2></div>
+
+          <div class="colors">
+            <p>(R) - Vermelho:</p>
+            <input type="range" id="redR" value="0" min="0" max="255" />
+            <input type="text" id="redD" value="0" disabled="" />
+          </div>
+          <div class="colors">
+            <p>(G) - Verde:</p>
+            <input type="range" id="greenR" value="0" min="0" max="255" />
+            <input type="text" id="greenD" value="0" disabled="" />
+          </div>
+          <div class="colors">
+            <p>(B) - Azul:</p>
+            <input type="range" id="blueR" value="0" min="0" max="255" />
+            <input type="text" id="blueD" value="0" disabled="" />
+          </div>
+        </div>
+      </div>
+      <div class="col s4">
+        <div id="quadrado"></div>
+      </div>
+    </div>
+
+    <footer class="page-footer teal accent-4 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Trabalho Prático</h5>
+            <p class="grey-text text-lighten-4">
+             
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">https://github.com/tariquevieira</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          #BootCamp- IGTI
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Tarique Vieira Ramos</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

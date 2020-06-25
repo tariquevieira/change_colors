@@ -1,0 +1,20 @@
+#quadrado {
+  background-color: #00bfa5;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.footer{
+  margin-top: 90px;
+}
